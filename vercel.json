@@ -23,6 +23,10 @@
       "dest": "/static/$1"
     },
     {
+      "src": "/meu-script",
+      "dest": "meu_script.py"
+    },
+    {
       "src": "/(.*)",
       "dest": "contas_max/wsgi.py"
     }
